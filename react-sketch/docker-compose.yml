@@ -1,0 +1,12 @@
+version: "3.3"
+
+services:
+    react-stetch:
+      build: .
+      networks: 
+        - frontend
+      ports:
+        - 9000:9000
+
+networks:
+  frontend:

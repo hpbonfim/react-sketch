@@ -1,3 +1,5 @@
+# 4/4/2019
+
 FROM node:latest
 
 #1º montar um diretorio central do aplicativo
